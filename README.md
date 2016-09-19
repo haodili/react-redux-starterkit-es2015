@@ -17,6 +17,7 @@ This a react redux starter kit with react route, with webpack hot reloading and 
 
 1. Add an ajax call example to get data from node server
 2. Add karma and enzyme tests
+3. Adding css and inline styling samples 
 
 
 ##Redux Stuff available inside app/redux-stuff
