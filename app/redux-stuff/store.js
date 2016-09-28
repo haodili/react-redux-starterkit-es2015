@@ -10,6 +10,6 @@ let store = createStore(
   reducer,
   applyMiddleware(thunk, promise, logger)
 );
-console.log(store);
+
 
 export default store;

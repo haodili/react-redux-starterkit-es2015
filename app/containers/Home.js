@@ -9,7 +9,7 @@ class HomeComponent extends React.Component {
     render() {
 
 
-        return <CounterComponent count={this.props.count} onIncrement = {this.props.onIncrement} onDecrement= {this.props.onDecrement} />
+        return  <CounterComponent count={this.props.count} onIncrement = {this.props.onIncrement} onDecrement= {this.props.onDecrement} />
     }
 }
 

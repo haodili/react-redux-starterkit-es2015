@@ -2,6 +2,7 @@ var path = require('path');
 var express = require('express');
 var webpack = require('webpack');
 var config = require('./webpack.config.dev');
+var chalk = require('chalk');
 
 var port = 3000;
 var app = express();
@@ -21,7 +22,9 @@ app.get('*', function (req, res) {
 app.listen(port, function onAppListening(err) {
     if (err) {
         console.error(err);
+
     } else {
-        console.log("Server Running @" + port);
+
+        console.log(chalk.green('server started at http://localhost:'+port));
     }
 });
