@@ -1,4 +1,4 @@
-##react-redux-starterkit-es2015
+##react-redux-starterkit-webpack
 
 This a react redux starter kit with react route, with webpack hot reloading and server rendering
 
