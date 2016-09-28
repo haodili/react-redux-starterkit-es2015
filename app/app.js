@@ -13,7 +13,7 @@ import { Router, Route, Link, browserHistory } from 'react-router';
 
 render((
   <Provider store={store}>
-  <Router>
+  <Router history={browserHistory}>
     <Route  component={MainComponent}>
        <Route  path="/" component={HomeComponent} />
        <Route path="/about" component={AboutComponent}/>
